@@ -1,0 +1,30 @@
+{
+    "name": "PerFileLogging",
+    "version": "0.1.0",
+    "description": "A header-library to assist with logging.",
+    "keywords": [
+        "logging",
+    ],
+    "homepage": "https://github.com/Brahvim/PerFileLogging",
+    "authors": [
+        {
+            "name": "Brahvim",
+            "maintainer": true,
+        }
+    ],
+    "license": "MIT-0", // MIT without attribution!
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Brahvim/PerFileLogging",
+    },
+    "frameworks": "arduino",
+    "platforms": "*",
+    "export": {
+        "exclude": [
+            ".vscode",
+            ".gitignore",
+            "library.properties",
+            "compile_commands.json",
+        ],
+    },
+}
